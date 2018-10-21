@@ -4,6 +4,30 @@ from datetime import datetime, timedelta
 
 
 class Device:
+    """
+    Parent class of Qivivo devices
+    Attributes:
+    uuid : str
+        Unique ID of the device
+    api : QivivoAPI
+        API handler
+    currentTimeBetweenCommunication : timedelta
+        time between update between Qivivo server and physical device
+    lastCommunicationDate : datetime
+        date and time of the last communication between Qivivo server and physical device
+    serial : str
+        serial ID of the device, not used for the moment
+    softwareVersion : string
+        version of the device firmware, not used
+    api_type : str
+        first level of URI path
+    device_type : str
+        second level of URI path
+
+    Methods:
+    isFresh()
+        check if the data need to be refreshed taking into account last communication date and the interval
+    """
     uuid: str = None                                            # Unique ID of the device
     api: QivivoAPI = None                                       # API object handler
     currentTimeBetweenCommunication: timedelta = timedelta(0)   # Refresh interval of the device

@@ -17,8 +17,6 @@ and call QivivoAPI API object with the client_id and the client_secret generated
 import QivivoAPI
 
 test = QivivoAPI.API('<client_id>', '<client_secret>')
-test.get_token()
-test.check_token()
 therm = None
 for device in test.get_devices():
     if device['type'] == 'thermostat':
