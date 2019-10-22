@@ -14,6 +14,14 @@
           <option name="url" value="https://github.com/itead/Sonoff_Devices_DIY_Tools.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.cgapic1092.ovh/isis/transverse/deployment/ansible.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.cgapic1092.ovh" />
+          <option name="userName" value="besage" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/PycharmProjects" />
