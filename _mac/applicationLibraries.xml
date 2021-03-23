@@ -60,6 +60,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="typeahead.bundle" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_twitter.github.io_typeahead.js_releases_latest_typeahead.bundle.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_twitter.github.io_typeahead.js_releases_latest_typeahead.bundle.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="typeahead.js" type="javaScript">
       <properties>
         <sourceFilesUrls>
