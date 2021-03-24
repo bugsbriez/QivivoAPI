@@ -452,6 +452,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.j2">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.taff.plugin.orchide" />
+              <option name="myPluginName" value="OrchidE" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.jar">
           <value>
             <plugin>
@@ -1570,6 +1578,22 @@
               <option name="myPluginId" value="JavaScript" />
               <option name="myPluginName" value="JavaScript and TypeScript" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="main.yaml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.taff.plugin.orchide" />
+              <option name="myPluginName" value="OrchidE" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="main.yml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.taff.plugin.orchide" />
+              <option name="myPluginName" value="OrchidE" />
             </plugin>
           </value>
         </entry>

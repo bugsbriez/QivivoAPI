@@ -9,7 +9,6 @@
       <mapping pattern="data" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="service" type="PLAIN_TEXT" />
-      <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping pattern="quivivoAuth.py" type="Python" />
       <mapping ext="conf" type="YAML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
